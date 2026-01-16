@@ -80,4 +80,4 @@ error = abs((I_exacta - I_romberg)/I_exacta)*100
 print("\nRESULTADOS FINALES")
 print(f"Mejor aproximación (Romberg): {I_romberg:.6f}")
 print(f"Integral verdadera: {I_exacta:.6f}")
-print(f"Error verdadero:              {error:.6f}")
+print(f"Error verdadero: {error:.6f}")
